@@ -1,0 +1,33 @@
+CreateMeshBuilder
+Cylinder, 6, 0.12, 0.12, 8.1
+Translate, -2.6, 3.45, 0
+SetColor, 176, 176, 176
+
+CreateMeshBuilder
+Cube, 0.3, 0.45, 0.3
+Translate, -2.6, -1.05, 0
+SetColor, 176, 176, 176
+
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 3
+Rotate, 0, 0, 1, 90
+Translate, -1.1, 6, 0
+SetColor, 176, 176, 192
+
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 2.683
+Rotate, 0, 0, 1, -63.435
+Translate, -1.4, 5.4, 0
+SetColor, 176, 176, 192
+
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 1.6
+Rotate, 0, 0, 1, 90 * DEG2RAD
+Translate, -0.6, 5.4, 0
+SetColor, 176, 176, 192
+
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 1.342
+Rotate, 0, 0, 1, 63.435
+Translate, -0.8, 5.7, 0
+SetColor, 176, 176, 192

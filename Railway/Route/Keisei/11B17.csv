@@ -1,0 +1,714 @@
+Route.Comment 11B17$chr(13)$chr(10)京成千葉線 各駅停車$chr(13)$chr(10)みどり台-千葉$chr(13)$chr(10)6両$chr(13)$chr(10)$chr(13)$chr(10)(C) 2001-2002 mackoy$chr(13)$chr(10)http://mackoy.cool.ne.jp/
+Route.Timetable 11B17  普通$chr(13)$chr(10)6両
+Route.Change -1
+Route.Gauge 1435
+Route.Signal(1) 25
+Route.Signal(2) 40
+Route.Signal(3) 70
+
+Train.Folder K_SEI3200v2
+Train.Run(0) 0
+Train.Run(1) 1
+Train.Run(2) 2
+Train.Run(3) 2
+Train.Run(6) 3
+Train.Run(10) 2
+Train.Flange(0) 0
+Train.Flange(1) 0
+Train.Flange(2) 0
+Train.Flange(3) 0
+Train.Flange(6) 0
+Train.Flange(10) 0
+
+With Structure
+.Rail(0) K_SEI\Tra_Bal.csv
+.Rail(1) K_SEI\Tra_Bal.csv
+.Rail(2) K_SEI\Tra_BalCR.csv
+.Rail(3) K_SEI\Tra_BalCL.csv
+.Rail(4) K_SEI\RoadL.csv
+.Rail(5) K_SEI\RoadR.csv
+.Rail(6) K_SEI\Tra_Bal.csv
+.Rail(7) K_SEI\Tra_GraL.csv
+.Rail(8) K_SEI\Tra_GraR.csv
+.Rail(9) K_SEI\Null.csv
+.Rail(10) K_SEI\Tra_BalCRS.csv
+.Rail(11) K_SEI\Tra_BalN.csv
+.WallL(1) K_SEI\FenceL.csv
+.WallR(1) K_SEI\FenceR.csv
+.WallL(2) K_SEI\WallL.csv
+.WallR(2) K_SEI\WallR.csv
+.WallL(3) K_SEI\RoadDikeL.csv
+.WallR(3) K_SEI\RoadDikeR.csv
+.WallL(4) K_SEI\TreeL.csv
+.WallR(4) K_SEI\TreeR.csv
+.WallL(5) K_SEI\TreeHL.csv
+.WallR(5) K_SEI\TreeHR.csv
+.WallL(6) K_SEI\Wl_FenceL.csv
+.WallR(6) K_SEI\Wl_FenceR.csv
+.WallL(7) K_SEI\Wl_Fence2L.csv
+.WallR(7) K_SEI\Wl_Fence2R.csv
+.WallL(8) K_SEI\Wl_ShortL.csv
+.WallR(8) K_SEI\Wl_ShortR.csv
+.DikeL(0) K_SEI\Dk_GraL.csv
+.DikeR(0) K_SEI\Dk_GraR.csv
+.DikeL(1) K_SEI\Dk_ConL.csv
+.DikeR(1) K_SEI\Dk_ConR.csv
+.Ground(0) K_SEI\GrassRise.csv
+.Ground(1) K_SEI\Tile.csv
+.Ground(2) K_SEI\Asphalt.csv
+.FormR(0) K_SEI\PfR.csv
+.FormL(0) K_SEI\PfL.csv
+.FormCR(0) K_SEI\PfCR.csv
+.FormCL(0) K_SEI\PfCL.csv
+.FormR(1) K_SEI\PfR.csv
+.FormL(1) K_SEI\PfL.csv
+.FormCR(1) K_SEI\PfCR1.csv
+.FormCL(1) K_SEI\PfCL1.csv
+.FormR(2) K_SEI\PfR2.csv
+.FormL(2) K_SEI\PfL2.csv
+.FormCR(2) K_SEI\PfCR2.csv
+.FormCL(2) K_SEI\PfCL2.csv
+.FormR(3) K_SEI\PfR3.csv
+.FormL(3) K_SEI\PfL3.csv
+.FormCR(3) K_SEI\PfCR3.csv
+.FormCL(3) K_SEI\PfCL3.csv
+.RoofR(1) K_SEI\RoofR.csv
+.RoofL(1) K_SEI\RoofL.csv
+.RoofCR(1) K_SEI\RoofCR.csv
+.RoofCL(1) K_SEI\RoofCL.csv
+.Pole(0; 0) K_SEI\Pole1.csv
+.Pole(0; 1) K_SEI\Pole1.csv
+.Pole(1; 0) K_SEI\Pole2.csv
+.Pole(1; 1) K_SEI\Pole2.csv
+.Pole(3; 0) K_SEI\Pole4.csv
+.FreeObj(0) K_SEI\CrossingD.csv
+.FreeObj(1) K_SEI\TollBarDL.csv
+.FreeObj(2) K_SEI\TollBarDR.csv
+.FreeObj(3) K_SEI\CrossingS.csv
+.FreeObj(4) K_SEI\TollBarSL.csv
+.FreeObj(5) K_SEI\TollBarSR.csv
+.FreeObj(6) K_SEI\Passage.csv
+.FreeObj(7) K_SEI\Stair.csv
+.FreeObj(8) K_SEI\CrossingSL.csv
+.FreeObj(9) K_SEI\CrossingDL.csv
+.FreeObj(10) K_SEI\StopS.csv
+.FreeObj(11) K_SEI\Stop4.csv
+.FreeObj(12) K_SEI\Stop6.csv
+.FreeObj(13) K_SEI\3500c.csv
+.FreeObj(14) K_SEI\3500.csv
+.FreeObj(15) K_SEI\StaPlate.csv
+.FreeObj(16) K_SEI\Spd8575.csv
+
+.FreeObj(20) K_SEI\Wicket.csv
+.FreeObj(21) K_SEI\Road2.csv
+.FreeObj(22) K_SEI\ConfSig.csv
+.FreeObj(23) K_SEI\Wicket_S.csv
+.FreeObj(24) K_SEI\STower.csv
+.FreeObj(25) K_SEI\Bldg.csv
+.FreeObj(26) K_SEI\Bldg2.csv
+.FreeObj(27) K_SEI\Bldg3.csv
+.FreeObj(28) K_SEI\Sogo.csv
+.FreeObj(29) K_SEI\Monorail.csv
+.FreeObj(30) K_SEI\Condo.csv
+.FreeObj(31) K_SEI\STRoad.csv
+.FreeObj(32) K_SEI\Bldg4.csv
+.FreeObj(33) K_SEI\JREMe.csv
+.FreeObj(34) K_SEI\Hotel.csv
+.FreeObj(35) K_SEI\House.csv
+.FreeObj(36) K_SEI\STRoadL.csv
+.FreeObj(37) K_SEI\chibaL.csv
+.FreeObj(38) K_SEI\Bldg5.csv
+.FreeObj(39) K_SEI\ParkingR.csv
+.FreeObj(40) K_SEI\ParkingL.csv
+.FreeObj(41) K_SEI\chibaR.csv
+.FreeObj(42) K_SEI\RdBridge.csv
+.FreeObj(43) K_SEI\FenceH.csv
+.FreeObj(44) K_SEI\Wl_Fence2L.csv
+.FreeObj(45) K_SEI\House3.csv
+.FreeObj(46) K_SEI\Bldg6.csv
+.FreeObj(47) K_SEI\Bldg7.csv
+.FreeObj(48) K_SEI\Bldg8.csv
+.FreeObj(49) K_SEI\House4.csv
+.FreeObj(50) K_SEI\Tree.csv
+.FreeObj(51) K_SEI\TollBarBL.csv
+.FreeObj(52) K_SEI\TollBarBR.csv
+.FreeObj(53) K_SEI\SigPost.csv
+
+Texture.Background(0) K_SEI\Bg.bmp
+
+With Track
+0
+  .Sta Midoridai; 12.38$rnd(3;5)0; 12.3900; ; -1; 1; 0; ; 20; 20
+  .Accuracy 2
+  .Height 0.6
+  .RailType 0; 0, .Rail 1; 3.4; 0; 0
+  .Adhesion 130
+  .Ground 0
+  .Pole 0; 1; 0; 50; 0
+  .Fog 0; 1600; 224; 224; 224
+  .Form 0; L; 1; 0, .Form 1; R; 1; 0
+25
+  .Form 0; L; 1; 0, .Form 1; R; 1; 0
+45
+  .Stop 0
+  .FreeObj 0; 10; 1.7; 0; 15
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; End Platform
+
+55
+  .FreeObj 0; 20; -2.8; -0.1; 0
+56
+  .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
+  .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
+59
+  .Doppler K_SEI\Crossing.wav; -2.2; 3
+60
+  .FreeObj 0; 22; -2.2; 0; 0
+65
+  .FreeObj 0; 0; 0; 0; 0, .FreeObj 1; 0; 0; 0; 0
+  .FreeObj 0; 51; 0; 0; 0, .FreeObj 1; 52; 0; 0; 0
+70
+  .FreeObj 0; 21; -3.8; -0.15; -90
+  .FreeObj 1; 21; 3.8; -0.15; 90
+75
+  .Wall 0; -1; 1, .Wall 1; 1; 1
+  .Rail 2; -6; 0.3; 4
+  .Rail 3; 9.4; 0.3; 5
+  .Dike 2; 1; 0
+  .Dike 3; -1; 0
+  .Rail 4; 14.8; 0; 9
+  .Wall 4; -1; 5
+1$Rnd(0;9)0
+  .Announce K_SEI\Nishino1.wav
+100
+  .Rail 3; 9.1; 0
+  .DikeEnd 3
+  .Rail 4; 16.8; -2
+145
+  .Sig 3; ; -2.2; 4.5; 1
+  .FreeObj 0; 53; -2.2; 0; 0
+150
+  .Rail 4; 14.8; 0
+175
+  .Rail 4; 15.8; -1
+225
+  .Height 0.6
+  .Rail 4; 16.8; -2
+225
+  .Pitch -7.6
+  .Height 0.75
+249
+  .FreeObj 0; 22; -2.2; 0; 0
+250
+  .WallEnd 1
+  .WallEnd 0
+  .Rail 3; 9.1; 0.3
+  .Dike 3; -1; 0
+  .Wall 2; -1; 3
+  .Wall 3; 1; 3
+  .RailEnd 4; 14.8; 0
+  .WallEnd 4
+251
+  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
+  .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
+275
+  .Rail 2; -6.5; 0.8
+  .Rail 3; 9.6; 0.5
+300
+  .Rail 2; -6.7; 1
+  .Rail 3; 10.1; 1
+325
+  .Rail 2; -6.9; 1.2
+  .Rail 3; 10.6; 1.5
+350
+  .Rail 2; -7.1; 1.4
+  .Rail 3; 11.1; 2
+375
+  .Rail 2; -7.7; 2
+  .Rail 3; 11.6; 2.5
+400
+  .Rail 2; -8.7; 3
+  .Rail 3; 12.1; 3
+425
+  .Rail 2; -9.7; 4
+  .Rail 3; 12.6; 3.5; 8
+450
+  .Rail 3; 13.1; 4
+475
+  .Rail 3; 13.6; 4.5
+500
+  .Rail 3; 14.1; 5
+525
+  .Rail 2; -10.7; 5
+  .Rail 3; 14.6; 5.5
+550
+  .Rail 3; 15.1; 6
+  .Rail 2; -11.7; 6
+575
+  .WallEnd 2
+  .WallEnd 3
+600
+  .Rail 2; -10.5; 4.8
+  .Rail 3; 13.9; 4.8
+625
+  .Height 0.75
+  .Rail 2; -9.3; 3.6
+  .Rail 3; 12.7; 3.6
+647
+  .FreeObj 0; 22; -2.2; 0; 0
+650
+  .Pitch 0
+  .Height 0.6
+  .Rail 2; -8.1; 2.4
+  .Rail 3; 11.5; 2.4
+675
+  .Height 0.6
+  .Rail 2; -6.9; 1.2
+  .Rail 3; 10.3; 1.2
+697
+  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
+  .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
+700
+  .Dike 0; -1; 0, .Dike 1; 1; 0
+  .Rail 2; -5.7; 0
+  .Rail 3; 9.1; 0; 5
+  .Wall 1; 1; 1, .Wall 0; -1; 1
+725
+  .Sig 3; ; -2.2; 4.5; 1
+  .FreeObj 0; 53; -2.2; 0; 0
+  .RailType 0; 1
+  .Height 3
+  .DikeEnd 2
+  .Rail 2; -6; -1.2
+  .Rail 3; 9; -0.8
+750
+  .Rail 2; -7.2; -2.4
+  .Rail 3; 10; -1.8
+775
+  .Rail 3; 10.6; -2.4
+8$Rnd(0;9)0
+  .Announce K_SEI\Nishino2.wav
+850
+  .Height 3
+  .Rail 2; -6; -1.2
+  .Rail 3; 9.4; -1.2
+  .Dike 2; 1; 0
+875
+  .Rail 2; -5.7; 0
+  .Rail 3; 9.1; 0
+  .WallEnd 1, .WallEnd 0
+892
+  .FreeObj 0; 22; -2.2; 0; 0
+897
+  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
+  .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Start Platform
+900
+  .Sta Nishi-Nobuto; ; ; 1; -1; 0; 0; ; 15; 20
+  .Form 0; L; 0; 0, .Form 1; R; 0; 0
+  .Height 0.6
+  .Rail 2; -5.7; 0.3
+  .RailEnd 3; 9.1; 0.3
+923
+  .FreeObj 0; 15; -4.5; 1.1; -90
+925
+  .Form 0; L; 0; 1, .Form 1; R; 0; 0
+  .Pole 0; 1; 0; 50; 1
+  .Rail 2; -5.7; 0
+928
+  .FreeObj 1; 13; 0; 0; 0
+946
+  .FreeObj 1; 14; 0; 0; 0
+947
+  .FreeObj 0; 6; 1.7; 1.1; 0
+  .FreeObj 0; 7; -5.3; 1.1; 0
+950
+  .Form 0; L; 0; 0, .Form 1; R; 0; 0
+  .FreeObj 1; 7; 5.3; 1.1; 180
+  .RailType 0; 6
+964
+  .FreeObj 1; 14; 0; 0; 0
+975
+  .Form 0; L; 0; 0, .Form 1; R; 0; 0
+  .FreeObj 0; 15; -4.5; 1.1; -90
+982
+  .FreeObj 0; 11; 1.7; 0; 0
+  .FreeObj 1; 14; 0; 0; 0
+1000
+  .Form 0; L; 0; 0, .Form 1; R; 0; 0
+  .Height 3
+1019
+  .Stop 0
+  .FreeObj 0; 12; 1.7; 0; 0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; End Platform
+
+1025
+  .Pole 0; 1; 0; 50; 0
+  .Wall 0; -1; 1
+  .Rail 5; 10.6; -2.4; 9
+  .Wall 5; -1; 4
+1045
+  .Sig 3; ; -2.2; 4.5; 1
+  .FreeObj 0; 53; -2.2; 0; 0
+  .FreeObj 0; 16; -2.2; 3; 0
+1050
+  .Rail 2; -6; -1.2
+  .DikeEnd 2
+  .FreeObj 0; 22; -2.2; 0; 0
+  .RailType 0; 1
+  .RailEnd 5
+  .WallEnd 5
+1060
+  .Doppler K_SEI\Crossing2.wav; -2.2; 3
+  .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
+  .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
+1075
+  .Rail 2; -7.2; -2.4
+12$Rnd(0;9)0
+  .Announce K_SEI\Shinchi1.wav
+1275
+  .Height 3
+  .Rail 2; -6; -1.2
+  .Rail 3; 11.1; -5; 8
+  .Wall 3; 1; 3
+  .Dike 3; -1; 0
+1300
+  .Rail 2; -3.9; 0
+  .Rail 3; 11.1; 2
+  .DikeEnd 0, .DikeEnd 1
+  .Rail 4; -9.9; 0; 7
+  .Wall 4; 1; 5
+1325
+  .Height 0.6
+  .RailEnd 3
+  .WallEnd 3
+  .DikeEnd 3
+  .Rail 5; 10; -2; 9
+  .Wall 5; -1; 4
+1350
+  .RailEnd 4
+  .WallEnd 4
+  .Rail 5; 9.1; 0
+1375
+  .Curve -400; 102
+  .RailType 0; 3, .RailType 1; 3
+  .Pole 0; 1; 0; 25
+  .Rail 5; 10; -1
+1426
+  .Sig 3; ; 5.6; 4.5; 1
+  .FreeObj 0; 53; 5.6; 0; 0
+1450
+  .FreeObj 1; 22; 2.2; 0; 0
+1475
+  .Rail 3; 9.1; 0; 8
+  .Dike 3; -1; 0
+  .WallEnd 5
+1476
+  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .FreeObj 0; 8; 0; 0; 0, .FreeObj 1; 8; 0; 0; 0
+  .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
+1500
+  .Rail 5; 11.1; 0
+  .Wall 5; -1; 4
+  .Rail 3; 9.6; 0.5
+1525
+  .Rail 3; 10.1; 1
+1575
+  .RailType 2; 9
+  .FreeObj 1; 22; 2.2; 0; 0
+  .RailEnd 2
+  .Rail 3; 9.6; 0.5
+  .Rail 4; -5.5; -2
+  .Wall 4; 1; 4
+16$Rnd(0;9)0
+  .Announce K_SEI\Shinchi2.wav
+1600
+  .DikeEnd 3
+  .RailEnd 3; 9.1; 0
+  .RailEnd 4
+  .WallEnd 4
+  .WallEnd 5
+1625
+  .WallEnd 0
+1626
+  .Doppler K_SEI\Crossing.wav; -2.2; 4
+  .FreeObj 0; 9; 0; 0; 0,
+  .FreeObj 0; 1; 0; 0; 0,
+1627
+  .FreeObj 1; 9; 0; 0; 0
+1628
+  .FreeObj 1; 2; 0; 0; 0
+1655
+  .FreeObj 1; 22; 2.2; 0; 0
+1650
+  .Rail 5; 9.1; -1
+  .Wall 5; -1; 4
+1675
+  .Relay 0; -1
+1700
+  .Curve 0
+  .RailType 0; 1, .RailType 1; 0
+  .RailEnd 5
+  .WallEnd 5
+1705
+  .Doppler K_SEI\Crossing.wav; -2.2; 4
+  .FreeObj 0; 0; 0; 0; 0, .FreeObj 1; 0; 0; 0; 0
+  .FreeObj 0; 51; 0; 0; 0, .FreeObj 1; 52; 0; 0; 0
+1710
+  .FreeObj 0; 21; -3.8; -0.15; -90
+  .FreeObj 1; 21; 3.8; -0.15; 90
+1719
+  .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
+  .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Start Platform
+1725
+  .Sta Shin-Chiba; ; ; 1; -1; 0; 0; ; 13; 20
+  .Form 0; L; 0; 1, .Form 1; R; 0; 1
+  .Pole 0; 1; 0; 50; 1
+1728
+  .FreeObj 1; 23; 2.8; 0; 0
+1747
+  .FreeObj 0; 6; 1.7; 1.1; 0
+  .FreeObj 0; 7; -5.3; 1.1; 0
+  .FreeObj 1; 7; 5.3; 1.1; 0
+1750
+  .Form 0; L; 0; 0, .Form 1; R; 0; 0
+1775
+  .Form 0; L; 0; 0, .Form 1; R; 0; 0
+  .RailType 0; 6
+1800
+  .Form 0; L; 0; 0, .Form 1; R; 0; 0
+  .FreeObj 0; 15; -4.5; 1.1; -90
+1810
+  .FreeObj 0; 11; 1.7; 0; 0
+1825
+  .Form 0; L; 0; 0, .Form 1; R; 0; 0
+1847
+  .Stop 0
+  .FreeObj 0; 12; 1.7; 0; 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; End Platform
+
+1850
+  .Height 0.6
+  .Pole 0; 1; 0; 50; 0
+1851
+  .FreeObj 0; 22; -2.2; 0; 0
+1853
+  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
+  .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
+1867
+  .Sig 3; ; -2.2; 4.5; 1
+  .FreeObj 0; 53; -2.2; 0; 0
+1875
+  .Pitch -9.1
+  .Height 1.5
+  .Rail 2; -5.5; 0; 7
+  .Dike 2; 1; 0
+  .Rail 5; 9.1; -1.8
+  .Wall 5; -1; 4
+; .FreeObj -1; 49; -6; 0.9; 15, ;家
+1881
+  .FreeObj -1; 50; -3.8; 0.3; -30, ;木
+1886
+  .FreeObj -1; 50; -3.8; 0.6; -30, ;木
+1890
+  .FreeObj -1; 47; -3.4; 2.4; -3, ;ビル
+19$Rnd(5;9)0
+  .Announce K_SEI\Chiba.wav
+1900
+  .Rail 2; -7.3; 1.8; 4
+  .Wall 2; 1; 6
+  .RailEnd 5
+  .WallEnd 5
+1920
+  .FreeObj 0; 22; -2.2; 0; 0
+1925
+  .Dike 0; -1; 0
+  .Dike 1; 1; 0
+  .Rail 2; -6.7; 1.2, .Rail 3; 9.7; 0.3; 5
+  .Dike 2; 1; 1, .Dike 3; -1; 0
+  .Wall 3; -1; 7
+  .Ground 2
+  .FreeObj -1; 48; 6.2; 1.5; 0, ;ビル
+1926
+  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
+  .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
+1950
+  .Rail 2; -5.75; 0.6
+1964
+  .FreeObj -1; 37; -14.4; 0.9; -30
+  .FreeObj -1; 50; -10.8; 0.3; -15, ;木
+1965
+  .FreeObj -1; 45; -9.3; 1.5; 0, ;家
+1975
+  .Rail 2; -5.75; 0
+  .Height 1.5
+  .FreeObj 2; 40; -3.5; -0.45; 0, ;駐車場
+1977
+  .FreeObj -1; 25; 24; 1.2; 0, ;マンション
+1984
+  .FreeObj -1; 38; 14.1; 1.2; 0, ;ビル
+1998
+  .FreeObj 2; 43; -3.5; -0.45; -90
+  .FreeObj 3; 43; 3.5; -0.45; 90
+2000
+  .Limit 50; -1
+  .Pitch 0
+  .Wall 0; -1; 8, .Wall 1; 1; 8
+  .Height 1.2
+  .Rail 2; -6.35; -0.3
+  .Rail 3; 9.75; 0.45
+  .FreeObj 2; 43; -4.1; -0.15; 0
+  .FreeObj 2; 42; -3.8; 0; 0
+  .FreeObj 2; 42; 2.8; 0; 0
+  .FreeObj 3; 43; 4.1; -0.15; 0
+  .FreeObj 3; 42; -2.8; 0; 0
+  .FreeObj 3; 42; 3.8; 0; 0
+  .WallEnd 2, .WallEnd 3
+2020
+  .FreeObj -1; 46; -24.6; 1.2; -10, ;ビル
+2025
+  .Curve -393; 83
+  .RailType 0; 3, .RailType 1; 3
+  .WallEnd 0, .WallEnd 1
+  .Pole 0; 1; 0; 25
+  .FreeObj 1; 22; 2.2; 0; 0
+  .Rail 3; 9.7; 0.3
+  .Wall 2; 1; 6, .Wall 3; -1; 7
+  .FreeObj 3; 43; 3.5; -0.45; 0
+2038
+  .FreeObj 2; 44; -4.1; 0; -90
+2043
+  .FreeObj 2; 40; -3.8; -0.45; 0, ;駐車場
+2044
+  .FreeObj 2; 44; -4.1; 0; -90
+2050
+  .Rail 1; 3.533
+  .Rail 3; 9.533; 0
+2057
+  .FreeObj -1; 38; 14.1; 0.3; 0, ;ビル
+2068
+  .FreeObj 3; 39; 3.5; -0.45; 0, ;駐車場
+2074
+  .FreeObj -1; 41; 39; -0.45; 30
+2075
+  .Rail 1; 3.667
+  .Height 1.2
+  .Rail 3; 9.967; -0.3
+2076
+  .Sig 3; ; 5.6; 4.5; 1
+  .FreeObj 0; 53; 5.6; 0; 0
+2087
+  .FreeObj -1; 27; 15.6; 0.3; -5, ;丸三ビル
+2088
+  .FreeObj -1; 30; -9.9; 0.3; 5, ;駅ビルニューハウス
+2095
+  .FreeObj -1; 35; 14.1; 0.6; -5, ;家
+2100
+  .Rail 1; 3.8
+  .Rail 2; -6.3; -0.3, .RailEnd 3; 10.1; -0.3
+  .Dike 2; 1; 0, .WallEnd 2
+  .DikeEnd 3
+  ;.Ground 1
+  .DikeEnd 0
+  .Rail 4; -0.6; 0; 11
+  .Dike 4; -1; 1
+  .Height 1.8
+  .WallEnd 3
+2101
+  .Doppler K_SEI\Crossing.wav; -2.2; 4
+  .FreeObj 0; 9; 0; 0; 0
+  .FreeObj 0; 36; 0; 0; 0
+2102
+ .FreeObj 1; 9; 0; 0; 0
+2103
+ .FreeObj 1; 31; 0; 0; 0
+2108
+  .FreeObj -1; 34; -13.8; 0.3; -5, ;バーディーホテル
+2118
+  .FreeObj -1; 32; -10.8; 0.3; 0, ;アパート
+2125
+  .Curve -786; 41
+  .RailType 0; 6, .RailType 1; 0
+  .Rail 2; -7.05; -1.2
+  .Rail 4; -1.8
+  .Wall 4; -1; 6
+  .Rail 5; 4.7; 0; 9
+  .Dike 5; 1; 1
+  .Wall 5; 1; 6
+2150
+  .Curve 0
+  .Rail 2; -8.1; -1.5
+  .Rail 4; -1.8
+  .Rail 5; 6.78; -1.2
+  .FreeObj 2; 33; -3.5; -0.6; 0, ;JR東日本メカトロニクス
+2175
+  .Limit 55; -1
+  .Rail 2; -12; -1.8
+  .FreeObj -1; 24; 19; 0; 7, ;センシティタワー
+  .Rail 4; -1.8
+2200
+  .Curve 301; 60
+  .Rail 1; 3.6
+  .RailType 0; 2, .RailType 1; 2
+  .Rail 2; -16.2; -2.1
+  .Rail 4; -1.5
+  .FreeObj 2; 33; -3.5; -0.6; 0, ;印刷センターもどき
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Start Platform
+2225
+  .Sta Keisei Chiba; 12.4300; T; 1; -1; 0; 0; ; 25; 5
+  .Rail 1; ; ; 10, .RailType 0; 10
+  .Form 0; L; 0; 2, .Form 1; R; 0; 2
+  .DikeEnd 0, .DikeEnd 1
+  .PoleEnd 0
+  .RailEnd 2; -21.6; -2.4
+  .DikeEnd 2
+  .FreeObj -1; 26; -7.5; 0; -8, ;ステーションビル別館
+  .RailEnd 4; -2.4, .RailEnd 5
+  .DikeEnd 4, .DikeEnd 5
+  .WallEnd 4, .WallEnd 5
+2235
+  .FreeObj 0; 29; 0; 8; 30, ;モノレール
+2250
+  .Form 0; L; 0; 2, .Form 1; R; 0; 2
+  .Height 4.2
+2260
+  .FreeObj -1; 28; 20; 0; -5, ;そごう
+2275
+  .Relay 0; -1
+  .Form 0; L; 0; 2, .Form 1; R; 0; 2
+2300
+  .Form 0; L; 0; 2, .Form 1; R; 0; 2
+2325
+  .Form 0; L; 0; 2, .Form 1; R; 0; 2
+2333
+  .Doppler K_SEI\Buzzer.wav; -1.5; 1
+2345
+  .Stop 0
+  .FreeObj 0; 10; 1.7; 0; 0
+2350
+  .Form 0; L; 0; 3, .Form 1; R; 0; 3
+  .RailType 0; 2, .RailType 1; 2
+  .Pole 0; 3; 1; 25; 0
+2375
+  .Form 0; L; 0; 3, .Form 1; R; 0; 3
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; End Platform
+
+2400
+  .Wall 0; -1; 2, .Wall 1; 1; 2
+  .Sig -4; ; -2.2; 4.5; 1
+  .FreeObj 0; 53; -2.2; 0; 0
+2425
+  .Sig 3; ; 0; -1; 2
+2450
+  .Sig 3; ; 0; -1; 3
+2475
+  .PreTrain 00.0000

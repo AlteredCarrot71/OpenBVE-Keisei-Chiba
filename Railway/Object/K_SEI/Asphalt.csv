@@ -1,0 +1,13 @@
+CreateMeshBuilder,,,,
+AddVertex,-50,0,0,
+AddVertex,-50,-0.01,26,
+AddVertex,50,-0.01,26,
+AddVertex,50,0,0,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,Asphalt.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetColor,160,160,160,

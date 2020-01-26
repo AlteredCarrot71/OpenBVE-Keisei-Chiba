@@ -1,0 +1,13 @@
+CreateMeshBuilder,,,,
+AddVertex,0,0,0,
+AddVertex,0,21,0,
+AddVertex,48,21,0,
+AddVertex,48,0,0,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,chibaR.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,255,255,255,
