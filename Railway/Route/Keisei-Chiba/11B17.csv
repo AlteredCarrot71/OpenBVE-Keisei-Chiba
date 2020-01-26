@@ -21,120 +21,120 @@ Train.Flange(6) 0
 Train.Flange(10) 0
 
 With Structure
-.Rail(0) K_SEI\Tra_Bal.csv
-.Rail(1) K_SEI\Tra_Bal.csv
-.Rail(2) K_SEI\Tra_BalCR.csv
-.Rail(3) K_SEI\Tra_BalCL.csv
-.Rail(4) K_SEI\RoadL.csv
-.Rail(5) K_SEI\RoadR.csv
-.Rail(6) K_SEI\Tra_Bal.csv
-.Rail(7) K_SEI\Tra_GraL.csv
-.Rail(8) K_SEI\Tra_GraR.csv
-.Rail(9) K_SEI\Null.csv
-.Rail(10) K_SEI\Tra_BalCRS.csv
-.Rail(11) K_SEI\Tra_BalN.csv
-.WallL(1) K_SEI\FenceL.csv
-.WallR(1) K_SEI\FenceR.csv
-.WallL(2) K_SEI\WallL.csv
-.WallR(2) K_SEI\WallR.csv
-.WallL(3) K_SEI\RoadDikeL.csv
-.WallR(3) K_SEI\RoadDikeR.csv
-.WallL(4) K_SEI\TreeL.csv
-.WallR(4) K_SEI\TreeR.csv
-.WallL(5) K_SEI\TreeHL.csv
-.WallR(5) K_SEI\TreeHR.csv
-.WallL(6) K_SEI\Wl_FenceL.csv
-.WallR(6) K_SEI\Wl_FenceR.csv
-.WallL(7) K_SEI\Wl_Fence2L.csv
-.WallR(7) K_SEI\Wl_Fence2R.csv
-.WallL(8) K_SEI\Wl_ShortL.csv
-.WallR(8) K_SEI\Wl_ShortR.csv
-.DikeL(0) K_SEI\Dk_GraL.csv
-.DikeR(0) K_SEI\Dk_GraR.csv
-.DikeL(1) K_SEI\Dk_ConL.csv
-.DikeR(1) K_SEI\Dk_ConR.csv
-.Ground(0) K_SEI\GrassRise.csv
-.Ground(1) K_SEI\Tile.csv
-.Ground(2) K_SEI\Asphalt.csv
-.FormR(0) K_SEI\PfR.csv
-.FormL(0) K_SEI\PfL.csv
-.FormCR(0) K_SEI\PfCR.csv
-.FormCL(0) K_SEI\PfCL.csv
-.FormR(1) K_SEI\PfR.csv
-.FormL(1) K_SEI\PfL.csv
-.FormCR(1) K_SEI\PfCR1.csv
-.FormCL(1) K_SEI\PfCL1.csv
-.FormR(2) K_SEI\PfR2.csv
-.FormL(2) K_SEI\PfL2.csv
-.FormCR(2) K_SEI\PfCR2.csv
-.FormCL(2) K_SEI\PfCL2.csv
-.FormR(3) K_SEI\PfR3.csv
-.FormL(3) K_SEI\PfL3.csv
-.FormCR(3) K_SEI\PfCR3.csv
-.FormCL(3) K_SEI\PfCL3.csv
-.RoofR(1) K_SEI\RoofR.csv
-.RoofL(1) K_SEI\RoofL.csv
-.RoofCR(1) K_SEI\RoofCR.csv
-.RoofCL(1) K_SEI\RoofCL.csv
-.Pole(0; 0) K_SEI\Pole1.csv
-.Pole(0; 1) K_SEI\Pole1.csv
-.Pole(1; 0) K_SEI\Pole2.csv
-.Pole(1; 1) K_SEI\Pole2.csv
-.Pole(3; 0) K_SEI\Pole4.csv
-.FreeObj(0) K_SEI\CrossingD.csv
-.FreeObj(1) K_SEI\TollBarDL.csv
-.FreeObj(2) K_SEI\TollBarDR.csv
-.FreeObj(3) K_SEI\CrossingS.csv
-.FreeObj(4) K_SEI\TollBarSL.csv
-.FreeObj(5) K_SEI\TollBarSR.csv
-.FreeObj(6) K_SEI\Passage.csv
-.FreeObj(7) K_SEI\Stair.csv
-.FreeObj(8) K_SEI\CrossingSL.csv
-.FreeObj(9) K_SEI\CrossingDL.csv
-.FreeObj(10) K_SEI\StopS.csv
-.FreeObj(11) K_SEI\Stop4.csv
-.FreeObj(12) K_SEI\Stop6.csv
-.FreeObj(13) K_SEI\3500c.csv
-.FreeObj(14) K_SEI\3500.csv
-.FreeObj(15) K_SEI\StaPlate.csv
-.FreeObj(16) K_SEI\Spd8575.csv
+.Rail(0) Keisei-Chiba\Tra_Bal.csv
+.Rail(1) Keisei-Chiba\Tra_Bal.csv
+.Rail(2) Keisei-Chiba\Tra_BalCR.csv
+.Rail(3) Keisei-Chiba\Tra_BalCL.csv
+.Rail(4) Keisei-Chiba\RoadL.csv
+.Rail(5) Keisei-Chiba\RoadR.csv
+.Rail(6) Keisei-Chiba\Tra_Bal.csv
+.Rail(7) Keisei-Chiba\Tra_GraL.csv
+.Rail(8) Keisei-Chiba\Tra_GraR.csv
+.Rail(9) Keisei-Chiba\Null.csv
+.Rail(10) Keisei-Chiba\Tra_BalCRS.csv
+.Rail(11) Keisei-Chiba\Tra_BalN.csv
+.WallL(1) Keisei-Chiba\FenceL.csv
+.WallR(1) Keisei-Chiba\FenceR.csv
+.WallL(2) Keisei-Chiba\WallL.csv
+.WallR(2) Keisei-Chiba\WallR.csv
+.WallL(3) Keisei-Chiba\RoadDikeL.csv
+.WallR(3) Keisei-Chiba\RoadDikeR.csv
+.WallL(4) Keisei-Chiba\TreeL.csv
+.WallR(4) Keisei-Chiba\TreeR.csv
+.WallL(5) Keisei-Chiba\TreeHL.csv
+.WallR(5) Keisei-Chiba\TreeHR.csv
+.WallL(6) Keisei-Chiba\Wl_FenceL.csv
+.WallR(6) Keisei-Chiba\Wl_FenceR.csv
+.WallL(7) Keisei-Chiba\Wl_Fence2L.csv
+.WallR(7) Keisei-Chiba\Wl_Fence2R.csv
+.WallL(8) Keisei-Chiba\Wl_ShortL.csv
+.WallR(8) Keisei-Chiba\Wl_ShortR.csv
+.DikeL(0) Keisei-Chiba\Dk_GraL.csv
+.DikeR(0) Keisei-Chiba\Dk_GraR.csv
+.DikeL(1) Keisei-Chiba\Dk_ConL.csv
+.DikeR(1) Keisei-Chiba\Dk_ConR.csv
+.Ground(0) Keisei-Chiba\GrassRise.csv
+.Ground(1) Keisei-Chiba\Tile.csv
+.Ground(2) Keisei-Chiba\Asphalt.csv
+.FormR(0) Keisei-Chiba\PfR.csv
+.FormL(0) Keisei-Chiba\PfL.csv
+.FormCR(0) Keisei-Chiba\PfCR.csv
+.FormCL(0) Keisei-Chiba\PfCL.csv
+.FormR(1) Keisei-Chiba\PfR.csv
+.FormL(1) Keisei-Chiba\PfL.csv
+.FormCR(1) Keisei-Chiba\PfCR1.csv
+.FormCL(1) Keisei-Chiba\PfCL1.csv
+.FormR(2) Keisei-Chiba\PfR2.csv
+.FormL(2) Keisei-Chiba\PfL2.csv
+.FormCR(2) Keisei-Chiba\PfCR2.csv
+.FormCL(2) Keisei-Chiba\PfCL2.csv
+.FormR(3) Keisei-Chiba\PfR3.csv
+.FormL(3) Keisei-Chiba\PfL3.csv
+.FormCR(3) Keisei-Chiba\PfCR3.csv
+.FormCL(3) Keisei-Chiba\PfCL3.csv
+.RoofR(1) Keisei-Chiba\RoofR.csv
+.RoofL(1) Keisei-Chiba\RoofL.csv
+.RoofCR(1) Keisei-Chiba\RoofCR.csv
+.RoofCL(1) Keisei-Chiba\RoofCL.csv
+.Pole(0; 0) Keisei-Chiba\Pole1.csv
+.Pole(0; 1) Keisei-Chiba\Pole1.csv
+.Pole(1; 0) Keisei-Chiba\Pole2.csv
+.Pole(1; 1) Keisei-Chiba\Pole2.csv
+.Pole(3; 0) Keisei-Chiba\Pole4.csv
+.FreeObj(0) Keisei-Chiba\CrossingD.csv
+.FreeObj(1) Keisei-Chiba\TollBarDL.csv
+.FreeObj(2) Keisei-Chiba\TollBarDR.csv
+.FreeObj(3) Keisei-Chiba\CrossingS.csv
+.FreeObj(4) Keisei-Chiba\TollBarSL.csv
+.FreeObj(5) Keisei-Chiba\TollBarSR.csv
+.FreeObj(6) Keisei-Chiba\Passage.csv
+.FreeObj(7) Keisei-Chiba\Stair.csv
+.FreeObj(8) Keisei-Chiba\CrossingSL.csv
+.FreeObj(9) Keisei-Chiba\CrossingDL.csv
+.FreeObj(10) Keisei-Chiba\StopS.csv
+.FreeObj(11) Keisei-Chiba\Stop4.csv
+.FreeObj(12) Keisei-Chiba\Stop6.csv
+.FreeObj(13) Keisei-Chiba\3500c.csv
+.FreeObj(14) Keisei-Chiba\3500.csv
+.FreeObj(15) Keisei-Chiba\StaPlate.csv
+.FreeObj(16) Keisei-Chiba\Spd8575.csv
 
-.FreeObj(20) K_SEI\Wicket.csv
-.FreeObj(21) K_SEI\Road2.csv
-.FreeObj(22) K_SEI\ConfSig.csv
-.FreeObj(23) K_SEI\Wicket_S.csv
-.FreeObj(24) K_SEI\STower.csv
-.FreeObj(25) K_SEI\Bldg.csv
-.FreeObj(26) K_SEI\Bldg2.csv
-.FreeObj(27) K_SEI\Bldg3.csv
-.FreeObj(28) K_SEI\Sogo.csv
-.FreeObj(29) K_SEI\Monorail.csv
-.FreeObj(30) K_SEI\Condo.csv
-.FreeObj(31) K_SEI\STRoad.csv
-.FreeObj(32) K_SEI\Bldg4.csv
-.FreeObj(33) K_SEI\JREMe.csv
-.FreeObj(34) K_SEI\Hotel.csv
-.FreeObj(35) K_SEI\House.csv
-.FreeObj(36) K_SEI\STRoadL.csv
-.FreeObj(37) K_SEI\chibaL.csv
-.FreeObj(38) K_SEI\Bldg5.csv
-.FreeObj(39) K_SEI\ParkingR.csv
-.FreeObj(40) K_SEI\ParkingL.csv
-.FreeObj(41) K_SEI\chibaR.csv
-.FreeObj(42) K_SEI\RdBridge.csv
-.FreeObj(43) K_SEI\FenceH.csv
-.FreeObj(44) K_SEI\Wl_Fence2L.csv
-.FreeObj(45) K_SEI\House3.csv
-.FreeObj(46) K_SEI\Bldg6.csv
-.FreeObj(47) K_SEI\Bldg7.csv
-.FreeObj(48) K_SEI\Bldg8.csv
-.FreeObj(49) K_SEI\House4.csv
-.FreeObj(50) K_SEI\Tree.csv
-.FreeObj(51) K_SEI\TollBarBL.csv
-.FreeObj(52) K_SEI\TollBarBR.csv
-.FreeObj(53) K_SEI\SigPost.csv
+.FreeObj(20) Keisei-Chiba\Wicket.csv
+.FreeObj(21) Keisei-Chiba\Road2.csv
+.FreeObj(22) Keisei-Chiba\ConfSig.csv
+.FreeObj(23) Keisei-Chiba\Wicket_S.csv
+.FreeObj(24) Keisei-Chiba\STower.csv
+.FreeObj(25) Keisei-Chiba\Bldg.csv
+.FreeObj(26) Keisei-Chiba\Bldg2.csv
+.FreeObj(27) Keisei-Chiba\Bldg3.csv
+.FreeObj(28) Keisei-Chiba\Sogo.csv
+.FreeObj(29) Keisei-Chiba\Monorail.csv
+.FreeObj(30) Keisei-Chiba\Condo.csv
+.FreeObj(31) Keisei-Chiba\STRoad.csv
+.FreeObj(32) Keisei-Chiba\Bldg4.csv
+.FreeObj(33) Keisei-Chiba\JREMe.csv
+.FreeObj(34) Keisei-Chiba\Hotel.csv
+.FreeObj(35) Keisei-Chiba\House.csv
+.FreeObj(36) Keisei-Chiba\STRoadL.csv
+.FreeObj(37) Keisei-Chiba\chibaL.csv
+.FreeObj(38) Keisei-Chiba\Bldg5.csv
+.FreeObj(39) Keisei-Chiba\ParkingR.csv
+.FreeObj(40) Keisei-Chiba\ParkingL.csv
+.FreeObj(41) Keisei-Chiba\chibaR.csv
+.FreeObj(42) Keisei-Chiba\RdBridge.csv
+.FreeObj(43) Keisei-Chiba\FenceH.csv
+.FreeObj(44) Keisei-Chiba\Wl_Fence2L.csv
+.FreeObj(45) Keisei-Chiba\House3.csv
+.FreeObj(46) Keisei-Chiba\Bldg6.csv
+.FreeObj(47) Keisei-Chiba\Bldg7.csv
+.FreeObj(48) Keisei-Chiba\Bldg8.csv
+.FreeObj(49) Keisei-Chiba\House4.csv
+.FreeObj(50) Keisei-Chiba\Tree.csv
+.FreeObj(51) Keisei-Chiba\TollBarBL.csv
+.FreeObj(52) Keisei-Chiba\TollBarBR.csv
+.FreeObj(53) Keisei-Chiba\SigPost.csv
 
-Texture.Background(0) K_SEI\Bg.bmp
+Texture.Background(0) Keisei-Chiba\Bg.bmp
 
 With Track
 0
@@ -160,7 +160,7 @@ With Track
   .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
   .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
 59
-  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .Doppler Keisei-Chiba\Crossing.wav; -2.2; 3
 60
   .FreeObj 0; 22; -2.2; 0; 0
 65
@@ -178,7 +178,7 @@ With Track
   .Rail 4; 14.8; 0; 9
   .Wall 4; -1; 5
 1$Rnd(0;9)0
-  .Announce K_SEI\Nishino1.wav
+  .Announce Keisei-Chiba\Nishino1.wav
 100
   .Rail 3; 9.1; 0
   .DikeEnd 3
@@ -208,7 +208,7 @@ With Track
   .RailEnd 4; 14.8; 0
   .WallEnd 4
 251
-  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .Doppler Keisei-Chiba\Crossing.wav; -2.2; 3
   .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
   .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
 275
@@ -266,7 +266,7 @@ With Track
   .Rail 2; -6.9; 1.2
   .Rail 3; 10.3; 1.2
 697
-  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .Doppler Keisei-Chiba\Crossing.wav; -2.2; 3
   .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
   .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
 700
@@ -288,7 +288,7 @@ With Track
 775
   .Rail 3; 10.6; -2.4
 8$Rnd(0;9)0
-  .Announce K_SEI\Nishino2.wav
+  .Announce Keisei-Chiba\Nishino2.wav
 850
   .Height 3
   .Rail 2; -6; -1.2
@@ -301,7 +301,7 @@ With Track
 892
   .FreeObj 0; 22; -2.2; 0; 0
 897
-  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .Doppler Keisei-Chiba\Crossing.wav; -2.2; 3
   .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
   .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
 
@@ -362,13 +362,13 @@ With Track
   .RailEnd 5
   .WallEnd 5
 1060
-  .Doppler K_SEI\Crossing2.wav; -2.2; 3
+  .Doppler Keisei-Chiba\Crossing2.wav; -2.2; 3
   .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
   .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
 1075
   .Rail 2; -7.2; -2.4
 12$Rnd(0;9)0
-  .Announce K_SEI\Shinchi1.wav
+  .Announce Keisei-Chiba\Shinchi1.wav
 1275
   .Height 3
   .Rail 2; -6; -1.2
@@ -407,7 +407,7 @@ With Track
   .Dike 3; -1; 0
   .WallEnd 5
 1476
-  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .Doppler Keisei-Chiba\Crossing.wav; -2.2; 3
   .FreeObj 0; 8; 0; 0; 0, .FreeObj 1; 8; 0; 0; 0
   .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
 1500
@@ -424,7 +424,7 @@ With Track
   .Rail 4; -5.5; -2
   .Wall 4; 1; 4
 16$Rnd(0;9)0
-  .Announce K_SEI\Shinchi2.wav
+  .Announce Keisei-Chiba\Shinchi2.wav
 1600
   .DikeEnd 3
   .RailEnd 3; 9.1; 0
@@ -434,7 +434,7 @@ With Track
 1625
   .WallEnd 0
 1626
-  .Doppler K_SEI\Crossing.wav; -2.2; 4
+  .Doppler Keisei-Chiba\Crossing.wav; -2.2; 4
   .FreeObj 0; 9; 0; 0; 0,
   .FreeObj 0; 1; 0; 0; 0,
 1627
@@ -454,7 +454,7 @@ With Track
   .RailEnd 5
   .WallEnd 5
 1705
-  .Doppler K_SEI\Crossing.wav; -2.2; 4
+  .Doppler Keisei-Chiba\Crossing.wav; -2.2; 4
   .FreeObj 0; 0; 0; 0; 0, .FreeObj 1; 0; 0; 0; 0
   .FreeObj 0; 51; 0; 0; 0, .FreeObj 1; 52; 0; 0; 0
 1710
@@ -499,7 +499,7 @@ With Track
 1851
   .FreeObj 0; 22; -2.2; 0; 0
 1853
-  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .Doppler Keisei-Chiba\Crossing.wav; -2.2; 3
   .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
   .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
 1867
@@ -520,7 +520,7 @@ With Track
 1890
   .FreeObj -1; 47; -3.4; 2.4; -3, ;ƒrƒ‹
 19$Rnd(5;9)0
-  .Announce K_SEI\Chiba.wav
+  .Announce Keisei-Chiba\Chiba.wav
 1900
   .Rail 2; -7.3; 1.8; 4
   .Wall 2; 1; 6
@@ -537,7 +537,7 @@ With Track
   .Ground 2
   .FreeObj -1; 48; 6.2; 1.5; 0, ;ƒrƒ‹
 1926
-  .Doppler K_SEI\Crossing.wav; -2.2; 3
+  .Doppler Keisei-Chiba\Crossing.wav; -2.2; 3
   .FreeObj 0; 3; 0; 0; 0, .FreeObj 1; 3; 0; 0; 0
   .FreeObj 0; 4; 0; 0; 0, .FreeObj 1; 5; 0; 0; 0
 1950
@@ -623,7 +623,7 @@ With Track
   .Height 1.8
   .WallEnd 3
 2101
-  .Doppler K_SEI\Crossing.wav; -2.2; 4
+  .Doppler Keisei-Chiba\Crossing.wav; -2.2; 4
   .FreeObj 0; 9; 0; 0; 0
   .FreeObj 0; 36; 0; 0; 0
 2102
@@ -690,7 +690,7 @@ With Track
 2325
   .Form 0; L; 0; 2, .Form 1; R; 0; 2
 2333
-  .Doppler K_SEI\Buzzer.wav; -1.5; 1
+  .Doppler Keisei-Chiba\Buzzer.wav; -1.5; 1
 2345
   .Stop 0
   .FreeObj 0; 10; 1.7; 0; 0
