@@ -22,7 +22,7 @@ SetColor, 176, 176, 192
 
 CreateMeshBuilder
 Cylinder, 3, 0.04, 0.04, 1.6
-Rotate, 0, 0, 1, 90 * DEG2RAD
+Rotate, 0, 0, 1, 90
 Translate, -0.6, 5.4, 0
 SetColor, 176, 176, 192
 
