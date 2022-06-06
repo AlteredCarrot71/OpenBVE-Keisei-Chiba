@@ -1,5 +1,5 @@
-Route.Comment 11B17$chr(13)$chr(10)‹¬ç—tü Še‰w’âÔ$chr(13)$chr(10)‚İ‚Ç‚è‘ä-ç—t$chr(13)$chr(10)6—¼$chr(13)$chr(10)$chr(13)$chr(10)(C) 2001-2002 mackoy$chr(13)$chr(10)http://mackoy.cool.ne.jp/
-Route.Timetable 11B17  •’Ê$chr(13)$chr(10)6—¼
+Route.Comment 11B17$chr(13)$chr(10)Keisei Chiba Line Station Stops$chr(13)$chr(10)Midoridai-Chiba$chr(13)$chr(10)6 cars$chr(13)$chr(10)$chr(13)$chr(10)(C) 2001-2002 mackoy$chr(13)$chr(10)http://mackoy.cool.ne.jp/
+Route.Timetable 11B17  ordinary$chr(13)$chr(10)6 cars
 Route.Change -1
 Route.Gauge 1435
 Route.Signal(1) 25
